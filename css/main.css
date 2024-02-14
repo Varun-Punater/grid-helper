@@ -1,0 +1,48 @@
+/* defining the key color scheme variables in HEX */
+:root{
+    --black: #000000ff;
+    --quinacridone-magenta: #912f56ff;
+    --dim-gray: #7a7265ff;
+    --alabaster: #ecebe4ff;
+}
+
+
+.custom-navbar {
+    background-color: var(--black);
+}
+
+.custom-navbar .navbar-brand {
+    color: var(--alabaster);
+}
+
+.custom-navbar .navbar-nav .nav-link.active {
+    color: var(--alabaster);
+}
+
+.custom-header {
+    color: var(--quinacridone-magenta);
+}
+
+a.hyperlink-icon {
+    text-decoration: none;
+    color: var(--quinacridone-magenta);
+}
+
+a.hyperlink-icon:hover {
+    text-decoration: underline;
+}
+
+.custom-button {
+    background-color: var(--quinacridone-magenta);
+    color: var(--alabaster);
+}
+
+.custom-button:hover {
+    background-color: var(--dim-gray);
+    color: var(--alabaster);
+}
+
+.custom-image{
+    width: 30%;
+    height: auto;
+}
